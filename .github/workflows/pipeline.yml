@@ -21,7 +21,7 @@ jobs:
       run: cd backend
 
     - name: add executable rights
-      run: ls -a && chmod +x ./gradlew
+      run: cd backend && ls -a && chmod +x ./gradlew
 
     - name: Build with Gradle
       run: ./gradlew build
