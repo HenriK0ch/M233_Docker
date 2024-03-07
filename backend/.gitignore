@@ -48,9 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
-/gradlew
-/gradlew.bat
-/.gradle/
 /.idea/
 /build/
 /gradle/
