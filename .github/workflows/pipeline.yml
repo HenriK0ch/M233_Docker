@@ -25,3 +25,6 @@ jobs:
 
     - name: Build with Gradle and test
       run: chmod +x gradlew && ./gradlew wrapper --gradle-version 8.0 --distribution-type bin && ./gradlew wrapper && ./gradlew build && ./gradlew test
+
+    - name: run the run.sh file
+      run: bash ./run.sh
