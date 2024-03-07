@@ -30,7 +30,7 @@ jobs:
       run: bash ./run.sh
 
     - name: create front end image
-      run: docker build -t backend_image --progress=plain
+      run: docker build -t backend_image ./ --progress=plain
       
     - name: SonarQube analysis
       run: ./gradlew sonarqube
