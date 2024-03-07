@@ -16,15 +16,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-      
-    - name: Navigate to backend directory
-      run: cd backend
 
-    - name: add executable rights
-      run: cd backend && ls -a && chmod +x ./gradlew
-
-    - name: Build with Gradle
-      run: ./gradlew build
-
-    - name: Run tests
-      run: ./gradlew test
+    - name: Build with Gradle and test
+      run: cd backend && ./gradlew build && ./gradlew test
