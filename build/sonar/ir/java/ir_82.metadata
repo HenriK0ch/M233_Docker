@@ -1,0 +1,5 @@
+com.example.demo.domain.user.UserServiceImpl#registerUser(Lcom/example/demo/domain/user/User;)Lcom/example/demo/domain/user/User;
+==
+setPassword com.example.demo.domain.user.User#setPassword(Ljava/lang/String;)Lcom/example/demo/domain/user/User;
+save com.example.demo.core.generic.AbstractServiceImpl#save(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;
+encode org.springframework.security.crypto.password.PasswordEncoder#encode(Ljava/lang/CharSequence;)Ljava/lang/String;

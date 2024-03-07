@@ -1,0 +1,7 @@
+com.example.demo.domain.user.UserController#updateById(Ljava/util/UUID;Lcom/example/demo/domain/user/dto/UserDTO;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+toDTO com.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;
+fromDTO com.example.demo.core.generic.AbstractMapper#fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)Lcom/example/demo/core/generic/AbstractEntity;
+updateById com.example.demo.core.generic.AbstractService#updateById(Ljava/util/UUID;Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;

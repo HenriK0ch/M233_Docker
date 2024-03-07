@@ -1,0 +1,26 @@
+
+Scom.example.demo.domain.user.UserDetailsImpl#getAuthorities()Ljava/util/Collection;{
+q/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/user/UserDetailsImpl.java0 (>"1*È
+1 (”
+‘
+ ('
+%0!com.example.demo.domain.user.User"__id*V
+
+__unknown_file (:*8.
+,com.example.demo.domain.user.UserDetailsImpl"
+user…
+‚
+ ('
+%1"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_1$com.example.demo.domain.user.UserDetailsImpl…
+‚
+ (@
+%2"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_2$com.example.demo.domain.user.UserDetailsImpl"
+ (
+""B0.
+,com.example.demo.domain.user.UserDetailsImplH

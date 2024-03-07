@@ -1,0 +1,7 @@
+organization=nypag-1
+projectKey=nypag-1_uk-223
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.53287
+dashboardUrl=https://sonarcloud.io/dashboard?id=nypag-1_uk-223
+ceTaskId=AY4Y-VYsITiQwH7mrWCa
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AY4Y-VYsITiQwH7mrWCa

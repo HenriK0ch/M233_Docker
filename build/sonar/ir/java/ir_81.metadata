@@ -1,0 +1,11 @@
+com.example.demo.domain.user.UserServiceImpl#register(Lcom/example/demo/domain/user/User;)Lcom/example/demo/domain/user/User;
+java.util.HashSet#<init>(Ljava/util/Collection;)V
+java.util.Collections#singleton(Ljava/lang/Object;)Ljava/util/Set;
+java.util.HashSet#instance-init#
+==
+setPassword com.example.demo.domain.user.User#setPassword(Ljava/lang/String;)Lcom/example/demo/domain/user/User;
+getPassword com.example.demo.domain.user.User#getPassword()Ljava/lang/String;
+save com.example.demo.core.generic.AbstractServiceImpl#save(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;
+encode org.springframework.security.crypto.password.PasswordEncoder#encode(Ljava/lang/CharSequence;)Ljava/lang/String;
+findRoleByName com.example.demo.domain.role.RoleRepository#findRoleByName(Ljava/lang/String;)Lcom/example/demo/domain/role/Role;
+setRoles com.example.demo.domain.user.User#setRoles(Ljava/util/Set;)Lcom/example/demo/domain/user/User;

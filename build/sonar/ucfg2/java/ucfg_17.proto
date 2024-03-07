@@ -1,0 +1,57 @@
+
+zcom.example.demo.core.generic.AbstractServiceImpl#findById(Ljava/util/UUID;)Lcom/example/demo/core/generic/AbstractEntity;€
+v/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/generic/AbstractServiceImpl.java6 6("startingBlock*þ
+startingBlock6 6(‡
+„
+5 5(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*2
+
+__unknown_file (
+
+idjava.util.UUIDT
+R
+6 6(
+idjava.util.UUID"__annotation*"
+
+__unknown_file (
+
+%3*
+1*þ
+17 7(®
+«
+7 7(6
+%00com.example.demo.core.generic.AbstractRepository"__id*a
+
+__unknown_file (E*C3
+1com.example.demo.core.generic.AbstractServiceImpl"
+
+repository´±
+7 7("
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*T
+
+__unknown_file (8
+6
+%00com.example.demo.core.generic.AbstractRepository*2
+
+__unknown_file (
+
+idjava.util.UUID2findById(Ljava/lang/Object;)ïì
+7 7(K
+%2T"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%1java.util.Optional*"
+
+__unknown_file (
+""2*orElseThrow(Ljava/util/function/Supplier;)"
+7 7(L	
+
+%2T: 
+6 6(
+idjava.util.UUIDB53
+1com.example.demo.core.generic.AbstractServiceImplH

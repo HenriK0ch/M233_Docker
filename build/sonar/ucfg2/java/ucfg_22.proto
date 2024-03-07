@@ -1,0 +1,21 @@
+
+~com.example.demo.core.security.permissionevaluators.UserPermissionEvaluator#isNotInGroup(Lcom/example/demo/domain/user/User;)Zõ
+ê/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/security/permissionevaluators/UserPermissionEvaluator.java ("1*Æ
+1 (ä
+á
+ ('
+%0"	__compare*"
+
+__unknown_file (
+==*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+"""
+ ((
+""::
+ (,.
+	principal!com.example.demo.domain.user.UserBOM
+Kcom.example.demo.core.security.permissionevaluators.UserPermissionEvaluatorHX

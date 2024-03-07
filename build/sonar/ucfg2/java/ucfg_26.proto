@@ -1,0 +1,109 @@
+
+rcom.example.demo.domain.group.GroupController#groupById(Ljava/util/UUID;)Lorg/springframework/http/ResponseEntity;|
+r/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/group/GroupController.java,$ ,(-"startingBlock*è
+startingBlock,- ,(D­
+ª
+* *([
+%7"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.security.access.prepost.PreAuthorize*2
+
+__unknown_file (
+
+idjava.util.UUID
+š
+	+ +(—
+%8"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.v3.oas.annotations.Operation*2
+
+__unknown_file (
+
+idjava.util.UUIDx
+v
+,A ,(C
+idjava.util.UUID"__annotation*"
+
+__unknown_file (
+
+%7*"
+
+__unknown_file (
+
+%8*
+1*å
+1- -("ª
+§
+- -("4
+%0.com.example.demo.domain.group.GroupServiceImpl"__id*_
+
+__unknown_file (C*A/
+-com.example.demo.domain.group.GroupController"
+groupServiceØÕ
+- -(/)
+%1#com.example.demo.domain.group.Group"zcom.example.demo.core.generic.AbstractServiceImpl#findById(Ljava/util/UUID;)Lcom/example/demo/core/generic/AbstractEntity;*R
+
+__unknown_file (6
+4
+%0.com.example.demo.domain.group.GroupServiceImpl*2
+
+__unknown_file (
+
+idjava.util.UUID2findById(Ljava/util/UUID;)Š
+‡
+- -(0,
+group#com.example.demo.domain.group.Group"__id*G
+
+__unknown_file (+
+)
+%1#com.example.demo.domain.group.Group¨
+¥
+.$ .(/3
+%2-com.example.demo.domain.group.dto.GroupMapper"__id*^
+
+__unknown_file (B*@/
+-com.example.demo.domain.group.GroupController"
+groupMapper¥¢
+.$ .(<0
+%3*com.example.demo.domain.group.dto.GroupDTO"com.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;*Q
+
+__unknown_file (5
+3
+%2-com.example.demo.domain.group.dto.GroupMapper*J
+
+__unknown_file (.
+,
+group#com.example.demo.domain.group.Group25toDTO(Lcom/example/demo/core/generic/AbstractEntity;)a
+_
+.> .(K)
+%4#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+. .(#-
+%5'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityç
+ä
+. .(L
+%6"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%5'org.springframework.http.ResponseEntity*N
+
+__unknown_file (2
+0
+%3*com.example.demo.domain.group.dto.GroupDTO*G
+
+__unknown_file (+
+)
+%4#org.springframework.http.HttpStatus";
+. .(M/
+-
+%5'org.springframework.http.ResponseEntity: 
+,. ,(C
+idjava.util.UUIDB1/
+-com.example.demo.domain.group.GroupControllerH

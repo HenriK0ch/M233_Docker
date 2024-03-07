@@ -1,0 +1,389 @@
+
+com.example.demo.domain.group.GroupController#createGroup(Lcom/example/demo/domain/group/dto/GroupDTO;)Lorg/springframework/http/ResponseEntity;|
+r/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/group/GroupController.java;$ ;(/"startingBlock*ß
+startingBlock;0 ;(T
+Š
+
+__unknown_file (
+%9"__id*b
+
+__unknown_file (F*D
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+descriptionŠ
+‡
+
+__unknown_file (
+%10"__id*^
+
+__unknown_file (B*@
+3
+group*com.example.demo.domain.group.dto.GroupDTO"	
+logoUrl‡
+„
+
+__unknown_file (
+%11"__id*[
+
+__unknown_file (?*=
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+nameˆ
+…
+
+__unknown_file (
+%12"__id*\
+
+__unknown_file (@*>
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+usersž
+›
+9 9(1
+%13"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.security.access.prepost.PreAuthorize*"
+
+__unknown_file (
+
+%9Ž
+‹
+	: :(‘
+%14"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.v3.oas.annotations.Operation*"
+
+__unknown_file (
+
+%9}
+{
+;1 ;(7
+%15"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%9™
+–
+;8 ;(D
+%16"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%9õ
+ò
+;N ;(SD
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+description"__annotation*#
+
+__unknown_file (
+
+%13*#
+
+__unknown_file (
+
+%14*#
+
+__unknown_file (
+
+%15*#
+
+__unknown_file (
+
+%16Ÿ
+œ
+9 9(1
+%17"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.security.access.prepost.PreAuthorize*#
+
+__unknown_file (
+
+%11
+Œ
+	: :(‘
+%18"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.v3.oas.annotations.Operation*#
+
+__unknown_file (
+
+%11~
+|
+;1 ;(7
+%19"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%11š
+—
+;8 ;(D
+%20"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%11î
+ë
+;N ;(S=
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+name"__annotation*#
+
+__unknown_file (
+
+%17*#
+
+__unknown_file (
+
+%18*#
+
+__unknown_file (
+
+%19*#
+
+__unknown_file (
+
+%20Ÿ
+œ
+9 9(1
+%21"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.security.access.prepost.PreAuthorize*#
+
+__unknown_file (
+
+%12
+Œ
+	: :(‘
+%22"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.v3.oas.annotations.Operation*#
+
+__unknown_file (
+
+%12~
+|
+;1 ;(7
+%23"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%12š
+—
+;8 ;(D
+%24"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%12ï
+ì
+;N ;(S>
+3
+group*com.example.demo.domain.group.dto.GroupDTO"
+users"__annotation*#
+
+__unknown_file (
+
+%21*#
+
+__unknown_file (
+
+%22*#
+
+__unknown_file (
+
+%23*#
+
+__unknown_file (
+
+%24Ÿ
+œ
+9 9(1
+%25"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.security.access.prepost.PreAuthorize*#
+
+__unknown_file (
+
+%10
+Œ
+	: :(‘
+%26"
+__annotate*G
+
+__unknown_file (+)
+'io.swagger.v3.oas.annotations.Operation*#
+
+__unknown_file (
+
+%10~
+|
+;1 ;(7
+%27"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%10š
+—
+;8 ;(D
+%28"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%10ñ
+î
+;N ;(S@
+3
+group*com.example.demo.domain.group.dto.GroupDTO"	
+logoUrl"__annotation*#
+
+__unknown_file (
+
+%25*#
+
+__unknown_file (
+
+%26*#
+
+__unknown_file (
+
+%27*#
+
+__unknown_file (
+
+%28*
+1*ô
+1< <(*ª
+§
+< <(*4
+%0.com.example.demo.domain.group.GroupServiceImpl"__id*_
+
+__unknown_file (C*A/
+-com.example.demo.domain.group.GroupController"
+groupService¨
+¥
+<0 <(;3
+%1-com.example.demo.domain.group.dto.GroupMapper"__id*^
+
+__unknown_file (B*@/
+-com.example.demo.domain.group.GroupController"
+groupMapper¦£
+<0 <(J)
+%2#com.example.demo.domain.group.Group"com.example.demo.core.generic.AbstractMapper#fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)Lcom/example/demo/core/generic/AbstractEntity;*Q
+
+__unknown_file (5
+3
+%1-com.example.demo.domain.group.dto.GroupMapper*Q
+
+__unknown_file (5
+3
+group*com.example.demo.domain.group.dto.GroupDTO24fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)ƒ€
+< <(K)
+%3#com.example.demo.domain.group.Group"com.example.demo.domain.group.GroupServiceImpl#save(Lcom/example/demo/domain/group/Group;)Lcom/example/demo/domain/group/Group;*R
+
+__unknown_file (6
+4
+%0.com.example.demo.domain.group.GroupServiceImpl*G
+
+__unknown_file (+
+)
+%2#com.example.demo.domain.group.Group2+save(Lcom/example/demo/domain/group/Group;)’
+
+< <(L4
+returnedGroup#com.example.demo.domain.group.Group"__id*G
+
+__unknown_file (+
+)
+%3#com.example.demo.domain.group.Group¨
+¥
+=$ =(/3
+%4-com.example.demo.domain.group.dto.GroupMapper"__id*^
+
+__unknown_file (B*@/
+-com.example.demo.domain.group.GroupController"
+groupMapper­ª
+=$ =(D0
+%5*com.example.demo.domain.group.dto.GroupDTO"com.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;*Q
+
+__unknown_file (5
+3
+%4-com.example.demo.domain.group.dto.GroupMapper*R
+
+__unknown_file (6
+4
+returnedGroup#com.example.demo.domain.group.Group25toDTO(Lcom/example/demo/core/generic/AbstractEntity;)a
+_
+=F =(X)
+%6#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+= =(#-
+%7'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityç
+ä
+= =(Y
+%8"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%7'org.springframework.http.ResponseEntity*N
+
+__unknown_file (2
+0
+%5*com.example.demo.domain.group.dto.GroupDTO*G
+
+__unknown_file (+
+)
+%6#org.springframework.http.HttpStatus";
+= =(Z/
+-
+%7'org.springframework.http.ResponseEntity:?
+;1 ;(S3
+group*com.example.demo.domain.group.dto.GroupDTOB1/
+-com.example.demo.domain.group.GroupControllerH

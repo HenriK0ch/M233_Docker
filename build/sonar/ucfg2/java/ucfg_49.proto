@@ -1,0 +1,83 @@
+
+Žcom.example.demo.domain.user.UserServiceImpl#loadUserByUsername(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;{
+q/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/user/UserServiceImpl.java# #('"startingBlock*ˆ
+startingBlock#' #(5Œ
+‰
+" "(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+emailjava.lang.StringY
+W
+#/ #(4
+emailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7*
+1*—
+1$ $('©
+¦
+$ $('6
+%00com.example.demo.core.generic.AbstractRepository"__id*\
+
+__unknown_file (@*>.
+,com.example.demo.domain.user.UserServiceImpl"
+
+repository¸µ
+$ $(;
+%1java.util.Optional"_com.example.demo.domain.user.UserRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;*T
+
+__unknown_file (8
+6
+%00com.example.demo.core.generic.AbstractRepository*7
+
+__unknown_file (
+
+emailjava.lang.String2findByEmail(Ljava/lang/String;)òï
+$ %(B
+%2java.util.Optional"Ijava.util.Optional#map(Ljava/util/function/Function;)Ljava/util/Optional;*6
+
+__unknown_file (
+
+%1java.util.Optional*"
+
+__unknown_file (
+""2"map(Ljava/util/function/Function;)¢
+Ÿ
+&5 &(_!
+%3java.util.function.Supplier"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_3$com.example.demo.domain.user.UserServiceImplŠ
+‡
+
+__unknown_file (,
+!
+%3java.util.function.Supplier"
+email"__id*7
+
+__unknown_file (
+
+emailjava.lang.String·´
+$ &(`2
+%6,com.example.demo.domain.user.UserDetailsImpl"Ojava.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;*6
+
+__unknown_file (
+
+%2java.util.Optional*?
+
+__unknown_file (#
+!
+%3java.util.function.Supplier2*orElseThrow(Ljava/util/function/Supplier;)"@
+$ &(a4
+2
+%6,com.example.demo.domain.user.UserDetailsImpl:%
+#( #(4
+emailjava.lang.StringB0.
+,com.example.demo.domain.user.UserServiceImplH

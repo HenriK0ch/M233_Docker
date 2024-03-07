@@ -1,0 +1,7 @@
+com.example.demo.domain.user.UserController#getUserFromGroup(Ljava/util/UUID;I)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#ok()Lorg/springframework/http/ResponseEntity$BodyBuilder;
+org.springframework.data.domain.PageRequest#of(II)Lorg/springframework/data/domain/PageRequest;
+==
+toDTOs com.example.demo.core.generic.AbstractMapper#toDTOs(Ljava/util/List;)Ljava/util/List;
+body org.springframework.http.ResponseEntity$BodyBuilder#body(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;
+getUsersByGroupId com.example.demo.domain.user.UserService#getUsersByGroupId(Ljava/util/UUID;Lorg/springframework/data/domain/PageRequest;)Ljava/util/List;

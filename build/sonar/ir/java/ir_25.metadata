@@ -1,0 +1,8 @@
+com.example.demo.core.generic.AbstractServiceImpl#updateById(Ljava/util/UUID;Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;
+java.util.NoSuchElementException#<init>(Ljava/lang/String;)V
+java.util.NoSuchElementException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+existsById org.springframework.data.repository.CrudRepository#existsById(Ljava/lang/Object;)Z
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+setId com.example.demo.core.generic.AbstractEntity#setId(Ljava/util/UUID;)V

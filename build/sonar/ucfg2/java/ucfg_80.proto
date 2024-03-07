@@ -1,0 +1,26 @@
+
+A__sonar_lambda_6$com.example.demo.core.security.WebSecurityConfig
+u/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/security/WebSecurityConfig.java4 4(h"1*Å
+14* 4(1}
+{
+4H 4(gE
+%23>org.springframework.security.config.http.SessionCreationPolicy"__id*"
+
+__unknown_file (
+""ÅÂ
+4* 4(ha
+%24Zorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer"Žorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer#sessionCreationPolicy(Lorg/springframework/security/config/http/SessionCreationPolicy;)Lorg/springframework/security/config/annotation/web/configurers/SessionManagementConfigurer;*ƒ
+
+__unknown_file (g
+e
+sessionZorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer*c
+
+__unknown_file (G
+E
+%23>org.springframework.security.config.http.SessionCreationPolicy2WsessionCreationPolicy(Lorg/springframework/security/config/http/SessionCreationPolicy;)"o
+4* 4(hc
+a
+%24Zorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurer:q
+4 4(&e
+sessionZorg.springframework.security.config.annotation.web.configurers.SessionManagementConfigurerB20
+.org.springframework.security.config.Customizer

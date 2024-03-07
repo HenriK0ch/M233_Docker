@@ -1,0 +1,8 @@
+com.example.demo.core.security.WebSecurityConfig#authenticationManager()Lorg/springframework/security/authentication/AuthenticationManager;
+org.springframework.security.authentication.ProviderManager#<init>([Lorg/springframework/security/authentication/AuthenticationProvider;)V
+org.springframework.security.authentication.ProviderManager#instance-init#
+org.springframework.security.authentication.dao.DaoAuthenticationProvider#instance-init#
+org.springframework.security.authentication.dao.DaoAuthenticationProvider#<init>()V
+==
+setUserDetailsService org.springframework.security.authentication.dao.DaoAuthenticationProvider#setUserDetailsService(Lorg/springframework/security/core/userdetails/UserDetailsService;)V
+setPasswordEncoder org.springframework.security.authentication.dao.DaoAuthenticationProvider#setPasswordEncoder(Lorg/springframework/security/crypto/password/PasswordEncoder;)V

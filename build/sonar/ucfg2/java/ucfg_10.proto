@@ -1,0 +1,39 @@
+
+?__sonar_lambda_0$com.example.demo.domain.group.GroupServiceImpl}
+s/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/group/GroupServiceImpl.javab b(_"startingBlock*²
+startingBlockb b(_‘
+Ž
+
+__unknown_file (
+idjava.util.UUID"__id*V
+
+__unknown_file (:*80
+.com.example.demo.domain.group.GroupServiceImpl"
+id*
+1*ê
+1b> b(Y}
+{
+b> b(^
+%3java.lang.String"__concat*)
+b> b(Y
+Group not found with id: *"
+b\ b(^
+
+idjava.util.UUIDVT
+b' b(=&
+%4 java.util.NoSuchElementException" java.util.NoSuchElementExceptionÍ
+Ê
+b# b(_
+%5"<java.util.NoSuchElementException#<init>(Ljava/lang/String;)V*D
+
+__unknown_file ((
+&
+%4 java.util.NoSuchElementException*4
+
+__unknown_file (
+
+%3java.lang.String"4
+b# b(_(
+&
+%4 java.util.NoSuchElementExceptionB
+java.util.function.Supplier

@@ -1,0 +1,12 @@
+
+Åcom.example.demo.core.security.permissionevaluators.UserPermissionEvaluator#isUserAboveAge(Lcom/example/demo/domain/user/User;I)Zõ
+ê/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/security/permissionevaluators/UserPermissionEvaluator.java ("1*!
+1 ("
+ (
+""::
+  (/.
+	principal!com.example.demo.domain.user.User: 
+
+__unknown_file (
+""BOM
+Kcom.example.demo.core.security.permissionevaluators.UserPermissionEvaluatorHX

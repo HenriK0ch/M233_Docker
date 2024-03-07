@@ -1,0 +1,1 @@
+com.example.demo.core.security.permissionevaluators.UserPermissionEvaluator#isInGroup(Lcom/example/demo/domain/user/User;Ljava/util/UUID;)Z

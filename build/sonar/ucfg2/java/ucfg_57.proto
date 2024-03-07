@@ -1,0 +1,27 @@
+
+mcom.example.demo.domain.role.RoleService#getRoleByName(Ljava/lang/String;)Lcom/example/demo/domain/role/Role;w
+m/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/role/RoleService.java ("1*Ä
+1 (¤
+¡
+ (1
+%0+com.example.demo.domain.role.RoleRepository"__id*\
+
+__unknown_file (@*>*
+(com.example.demo.domain.role.RoleService"
+roleRepositoryÖÓ
+ (2'
+%1!com.example.demo.domain.role.Role"qcom.example.demo.domain.role.RoleRepository#findRoleByName(Ljava/lang/String;)Lcom/example/demo/domain/role/Role;*O
+
+__unknown_file (3
+1
+%0+com.example.demo.domain.role.RoleRepository*6
+
+__unknown_file (
+
+namejava.lang.String2"findRoleByName(Ljava/lang/String;)"5
+ (3)
+'
+%1!com.example.demo.domain.role.Role:$
+ ()
+namejava.lang.StringB,*
+(com.example.demo.domain.role.RoleServiceH

@@ -1,0 +1,5 @@
+com.example.demo.domain.group.GroupServiceImpl#save(Lcom/example/demo/domain/group/Group;)Lcom/example/demo/domain/group/Group;
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+findById com.example.demo.core.generic.AbstractService#findById(Ljava/util/UUID;)Lcom/example/demo/core/generic/AbstractEntity;
+getId com.example.demo.core.generic.AbstractEntity#getId()Ljava/util/UUID;

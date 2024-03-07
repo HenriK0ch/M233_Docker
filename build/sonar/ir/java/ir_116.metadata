@@ -1,0 +1,6 @@
+com.example.demo.domain.user.UserController#retrieveAll()Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+toDTOs com.example.demo.core.generic.AbstractMapper#toDTOs(Ljava/util/List;)Ljava/util/List;
+findAll com.example.demo.core.generic.AbstractService#findAll()Ljava/util/List;

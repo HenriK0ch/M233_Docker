@@ -1,0 +1,317 @@
+
+òcom.example.demo.domain.user.UserController#registerWithoutPassword(Lcom/example/demo/domain/user/dto/UserDTO;)Lorg/springframework/http/ResponseEntity;z
+p/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/user/UserController.java3! 3(8"startingBlock*π
+startingBlock38 3(]á
+Ñ
+
+__unknown_file (
+%9"__id*\
+
+__unknown_file (@*>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+emailå
+â
+
+__unknown_file (
+%10"__id*`
+
+__unknown_file (D*B
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+	firstNameà
+Ö
+
+__unknown_file (
+%11"__id*\
+
+__unknown_file (@*>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+groupã
+à
+
+__unknown_file (
+%12"__id*_
+
+__unknown_file (C*A
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+
+lastNameà
+Ö
+
+__unknown_file (
+%13"__id*\
+
+__unknown_file (@*>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+roles~
+|
+39 3(?
+%14"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%13ö
+ó
+3@ 3(L
+%15"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%13•
+¢
+3U 3(\>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+roles"__annotation*#
+
+__unknown_file (
+
+%14*#
+
+__unknown_file (
+
+%15~
+|
+39 3(?
+%16"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%12ö
+ó
+3@ 3(L
+%17"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%12®
+•
+3U 3(\A
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+
+lastName"__annotation*#
+
+__unknown_file (
+
+%16*#
+
+__unknown_file (
+
+%17}
+{
+39 3(?
+%18"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*"
+
+__unknown_file (
+
+%9ô
+ñ
+3@ 3(L
+%19"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%9•
+¢
+3U 3(\>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+email"__annotation*#
+
+__unknown_file (
+
+%18*#
+
+__unknown_file (
+
+%19~
+|
+39 3(?
+%20"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%11ö
+ó
+3@ 3(L
+%21"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%11•
+¢
+3U 3(\>
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+group"__annotation*#
+
+__unknown_file (
+
+%20*#
+
+__unknown_file (
+
+%21~
+|
+39 3(?
+%22"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%10ö
+ó
+3@ 3(L
+%23"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*#
+
+__unknown_file (
+
+%10©
+¶
+3U 3(\B
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO"
+	firstName"__annotation*#
+
+__unknown_file (
+
+%22*#
+
+__unknown_file (
+
+%23*
+1*π
+14 4(°
+û
+4 4(.
+%0(com.example.demo.domain.user.UserService"__id*\
+
+__unknown_file (@*>-
++com.example.demo.domain.user.UserController"
+userService£
+†
+4) 4(31
+%1+com.example.demo.domain.user.dto.UserMapper"__id*[
+
+__unknown_file (?*=-
++com.example.demo.domain.user.UserController"
+
+userMapper¢ü
+4) 4(D'
+%2!com.example.demo.domain.user.User"ècom.example.demo.core.generic.AbstractMapper#fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)Lcom/example/demo/core/generic/AbstractEntity;*O
+
+__unknown_file (3
+1
+%1+com.example.demo.domain.user.dto.UserMapper*Q
+
+__unknown_file (5
+3
+userDTO(com.example.demo.domain.user.dto.UserDTO24fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)˝˙
+4 4(E'
+%3!com.example.demo.domain.user.User"}com.example.demo.domain.user.UserService#registerUser(Lcom/example/demo/domain/user/User;)Lcom/example/demo/domain/user/User;*L
+
+__unknown_file (0
+.
+%0(com.example.demo.domain.user.UserService*E
+
+__unknown_file ()
+'
+%2!com.example.demo.domain.user.User21registerUser(Lcom/example/demo/domain/user/User;)Ö
+Ç
+4 4(F)
+user!com.example.demo.domain.user.User"__id*E
+
+__unknown_file ()
+'
+%3!com.example.demo.domain.user.User£
+†
+5  5(*1
+%4+com.example.demo.domain.user.dto.UserMapper"__id*[
+
+__unknown_file (?*=-
++com.example.demo.domain.user.UserController"
+
+userMapperûõ
+5  5(6.
+%5(com.example.demo.domain.user.dto.UserDTO"çcom.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;*O
+
+__unknown_file (3
+1
+%4+com.example.demo.domain.user.dto.UserMapper*G
+
+__unknown_file (+
+)
+user!com.example.demo.domain.user.User25toDTO(Lcom/example/demo/core/generic/AbstractEntity;)a
+_
+58 5(J)
+%6#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+5 5(-
+%7'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityÂ
+‚
+5 5(K
+%8"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%7'org.springframework.http.ResponseEntity*L
+
+__unknown_file (0
+.
+%5(com.example.demo.domain.user.dto.UserDTO*G
+
+__unknown_file (+
+)
+%6#org.springframework.http.HttpStatus";
+5 5(L/
+-
+%7'org.springframework.http.ResponseEntity:?
+39 3(\3
+userDTO(com.example.demo.domain.user.dto.UserDTOB/-
++com.example.demo.domain.user.UserControllerH

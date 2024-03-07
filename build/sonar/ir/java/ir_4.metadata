@@ -1,0 +1,5 @@
+com.example.demo.core.security.JWTAuthenticationFilter#unsuccessfulAuthentication(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Lorg/springframework/security/core/AuthenticationException;)V
+org.springframework.http.HttpStatus#value()I
+org.springframework.security.core.context.SecurityContextHolder#clearContext()V
+==
+setStatus jakarta.servlet.http.HttpServletResponse#setStatus(I)V

@@ -1,0 +1,22 @@
+
+Kcom.example.demo.core.generic.AbstractServiceImpl#findAll()Ljava/util/List;€
+v/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/generic/AbstractServiceImpl.java+ +("1*»
+1, ,(®
+«
+, ,(6
+%00com.example.demo.core.generic.AbstractRepository"__id*a
+
+__unknown_file (E*C3
+1com.example.demo.core.generic.AbstractServiceImpl"
+
+repositoryÖÓ
+, ,(
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*T
+
+__unknown_file (8
+6
+%00com.example.demo.core.generic.AbstractRepository2	findAll()""
+, ,( 
+
+%1java.util.ListB53
+1com.example.demo.core.generic.AbstractServiceImplH

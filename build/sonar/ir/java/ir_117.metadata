@@ -1,0 +1,7 @@
+com.example.demo.domain.user.UserController#register(Lcom/example/demo/domain/user/dto/UserRegisterDTO;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+toDTO com.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;
+register com.example.demo.domain.user.UserService#register(Lcom/example/demo/domain/user/User;)Lcom/example/demo/domain/user/User;
+fromUserRegisterDTO com.example.demo.domain.user.dto.UserMapper#fromUserRegisterDTO(Lcom/example/demo/domain/user/dto/UserRegisterDTO;)Lcom/example/demo/domain/user/User;

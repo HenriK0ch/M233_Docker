@@ -1,0 +1,7 @@
+com.example.demo.core.generic.AbstractServiceImpl#findAll(Lorg/springframework/data/domain/Pageable;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+hasContent org.springframework.data.domain.Slice#hasContent()Z
+findAll org.springframework.data.repository.PagingAndSortingRepository#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;
+getContent org.springframework.data.domain.Slice#getContent()Ljava/util/List;

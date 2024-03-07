@@ -1,0 +1,11 @@
+
+ãcom.example.demo.core.security.permissionevaluators.UserPermissionEvaluator#isInGroup(Lcom/example/demo/domain/user/User;Ljava/util/UUID;)Zõ
+ê/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/security/permissionevaluators/UserPermissionEvaluator.java ("1*!
+1 ("
+ (6
+""::
+ (*.
+	principal!com.example.demo.domain.user.User:#
++ (5
+groupjava.util.UUIDBOM
+Kcom.example.demo.core.security.permissionevaluators.UserPermissionEvaluatorHX

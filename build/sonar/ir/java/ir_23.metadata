@@ -1,0 +1,3 @@
+com.example.demo.core.generic.AbstractServiceImpl#save(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;
+==
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;

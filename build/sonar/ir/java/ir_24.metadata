@@ -1,0 +1,7 @@
+com.example.demo.core.generic.AbstractServiceImpl#deleteById(Ljava/util/UUID;)V
+java.util.NoSuchElementException#<init>(Ljava/lang/String;)V
+java.util.NoSuchElementException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+existsById org.springframework.data.repository.CrudRepository#existsById(Ljava/lang/Object;)Z
+deleteById org.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V

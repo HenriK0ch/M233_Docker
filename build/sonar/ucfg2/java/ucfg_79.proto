@@ -1,0 +1,89 @@
+
+A__sonar_lambda_5$com.example.demo.core.security.WebSecurityConfig
+u/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/security/WebSecurityConfig.java- /(9"1*Û 
+1- -(a
+_
+-- -(<)
+%1#org.springframework.http.HttpMethod"__id*"
+
+__unknown_file (
+""ÛØ
+- -(^r
+%2lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl"­org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#requestMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)Ljava/lang/Object;*¶
+
+__unknown_file (™
+–
+requests‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry*G
+
+__unknown_file (+
+)
+%1#org.springframework.http.HttpMethod*+
+
+__unknown_file (
+/user/login*.
+
+__unknown_file (
+/user/register2IrequestMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)ÆÃ
+- -(j
+%3‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry"ƒorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#permitAll()Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;*
+
+__unknown_file (t
+r
+%2lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl2permitAll()a
+_
+.- .(;)
+%4#org.springframework.http.HttpMethod"__id*"
+
+__unknown_file (
+""éæ
+	- .(’r
+%5lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl"­org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#requestMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)Ljava/lang/Object;*°
+
+__unknown_file (“
+
+%3‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry*G
+
+__unknown_file (+
+)
+%4#org.springframework.http.HttpMethod*,
+
+__unknown_file (
+/v3/api-docs*;
+
+__unknown_file (
+/v3/api-docs/swagger-config*-
+
+__unknown_file (
+/swagger-ui/***
+
+__unknown_file (
+
+/myapi/*/**(
+
+__unknown_file (
+
+/myapi/*2IrequestMatchers(Lorg/springframework/http/HttpMethod;[Ljava/lang/String;)ÇÄ
+	- .(ž
+%6‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry"ƒorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#permitAll()Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;*
+
+__unknown_file (t
+r
+%5lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl2permitAll()´±
+- /()r
+%7lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl"porg.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry#anyRequest()Ljava/lang/Object;*°
+
+__unknown_file (“
+
+%6‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry2anyRequest()ÎË
+- /(9
+%8‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry"‡org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl#authenticated()Lorg/springframework/security/config/annotation/web/configurers/AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry;*
+
+__unknown_file (t
+r
+%7lorg.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizedUrl2authenticated()" 
+- /(9“
+
+%8‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistry:£
+- -(–
+requests‰org.springframework.security.config.annotation.web.configurers.AuthorizeHttpRequestsConfigurer$AuthorizationManagerRequestMatcherRegistryB20
+.org.springframework.security.config.Customizer

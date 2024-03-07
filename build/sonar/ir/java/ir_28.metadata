@@ -1,0 +1,4 @@
+com.example.demo.core.generic.AbstractServiceImpl#findById(Ljava/util/UUID;)Lcom/example/demo/core/generic/AbstractEntity;
+java.util.Optional#orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+==
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;

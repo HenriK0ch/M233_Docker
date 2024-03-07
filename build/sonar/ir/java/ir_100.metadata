@@ -1,0 +1,13 @@
+com.example.demo.core.exception.CustomGlobalExceptionHandler#handleMethodArgumentNotValid(Lorg/springframework/web/bind/MethodArgumentNotValidException;Ljakarta/servlet/http/HttpServletRequest;)Lcom/example/demo/core/exception/ResponseError;
+org.springframework.validation.BindException#getBindingResult()Lorg/springframework/validation/BindingResult;
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.util.stream.Collectors#toMap(Ljava/util/function/Function;Ljava/util/function/Function;)Ljava/util/stream/Collector;
+com.example.demo.core.exception.ResponseError#instance-init#
+com.example.demo.core.exception.ResponseError#<init>()V
+==
+getFieldErrors org.springframework.validation.Errors#getFieldErrors()Ljava/util/List;
+collect java.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;
+setErrors com.example.demo.core.exception.ResponseError#setErrors(Ljava/util/Map;)Lcom/example/demo/core/exception/ResponseError;
+setTimeStamp com.example.demo.core.exception.ResponseError#setTimeStamp(Ljava/time/LocalDate;)Lcom/example/demo/core/exception/ResponseError;
+build com.example.demo.core.exception.ResponseError#build()Lcom/example/demo/core/exception/ResponseError;
+stream java.util.Collection#stream()Ljava/util/stream/Stream;

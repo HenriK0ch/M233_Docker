@@ -1,0 +1,48 @@
+
+îcom.example.demo.core.generic.AbstractServiceImpl#save(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractEntity;Ä
+v/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/generic/AbstractServiceImpl.java ("startingBlock*Í
+startingBlock (}
+{
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*)
+
+__unknown_file (
+
+entityTK
+I
+ (
+entityT"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ë
+1 (Æ
+´
+ (6
+%00com.example.demo.core.generic.AbstractRepository"__id*a
+
+__unknown_file (E*C3
+1com.example.demo.core.generic.AbstractServiceImpl"
+
+repositoryêç
+ ("
+%1T"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*T
+
+__unknown_file (8
+6
+%00com.example.demo.core.generic.AbstractRepository*)
+
+__unknown_file (
+
+entityT2save(Ljava/lang/Object;)"
+ (#	
+
+%1T:
+ (
+entityTB53
+1com.example.demo.core.generic.AbstractServiceImplH

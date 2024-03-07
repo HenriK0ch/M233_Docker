@@ -1,0 +1,14 @@
+com.example.demo.core.security.WebSecurityConfig#corsConfigurationSource()Lorg/springframework/web/cors/CorsConfigurationSource;
+org.springframework.web.cors.UrlBasedCorsConfigurationSource#<init>()V
+java.util.List#of(Ljava/lang/Object;)Ljava/util/List;
+org.springframework.web.cors.CorsConfiguration#instance-init#
+org.springframework.web.cors.CorsConfiguration#<init>()V
+java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;
+java.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;
+org.springframework.web.cors.UrlBasedCorsConfigurationSource#instance-init#
+==
+setAllowedHeaders org.springframework.web.cors.CorsConfiguration#setAllowedHeaders(Ljava/util/List;)V
+setAllowedOrigins org.springframework.web.cors.CorsConfiguration#setAllowedOrigins(Ljava/util/List;)V
+setAllowedMethods org.springframework.web.cors.CorsConfiguration#setAllowedMethods(Ljava/util/List;)V
+registerCorsConfiguration org.springframework.web.cors.UrlBasedCorsConfigurationSource#registerCorsConfiguration(Ljava/lang/String;Lorg/springframework/web/cors/CorsConfiguration;)V
+setExposedHeaders org.springframework.web.cors.CorsConfiguration#setExposedHeaders(Ljava/util/List;)V

@@ -1,0 +1,6 @@
+com.example.demo.domain.user.UserServiceImpl#getRandomSpecialChars(I)Ljava/util/stream/Stream;
+java.security.SecureRandom#<init>()V
+java.security.SecureRandom#instance-init#
+==
+mapToObj java.util.stream.IntStream#mapToObj(Ljava/util/function/IntFunction;)Ljava/util/stream/Stream;
+ints java.util.Random#ints(JII)Ljava/util/stream/IntStream;

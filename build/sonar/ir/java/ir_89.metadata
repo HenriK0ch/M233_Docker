@@ -1,0 +1,3 @@
+com.example.demo.domain.role.RoleService#getRoleByName(Ljava/lang/String;)Lcom/example/demo/domain/role/Role;
+==
+findRoleByName com.example.demo.domain.role.RoleRepository#findRoleByName(Ljava/lang/String;)Lcom/example/demo/domain/role/Role;

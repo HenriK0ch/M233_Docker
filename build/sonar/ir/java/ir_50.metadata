@@ -1,0 +1,5 @@
+com.example.demo.domain.group.GroupController#deleteGroup(Ljava/util/UUID;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#instance-init#
+org.springframework.http.ResponseEntity#<init>(Lorg/springframework/http/HttpStatusCode;)V
+==
+deleteById com.example.demo.domain.group.GroupServiceImpl#deleteById(Ljava/util/UUID;)V

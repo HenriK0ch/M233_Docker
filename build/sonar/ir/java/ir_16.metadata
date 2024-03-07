@@ -1,0 +1,11 @@
+com.example.demo.domain.group.GroupServiceImpl#updateById(Ljava/util/UUID;Lcom/example/demo/domain/group/Group;)Lcom/example/demo/domain/group/Group;
+java.util.NoSuchElementException#<init>(Ljava/lang/String;)V
+java.util.NoSuchElementException#instance-init#
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+existsById org.springframework.data.repository.CrudRepository#existsById(Ljava/lang/Object;)Z
+save org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;
+findById org.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;
+findById com.example.demo.core.generic.AbstractService#findById(Ljava/util/UUID;)Lcom/example/demo/core/generic/AbstractEntity;
+setId com.example.demo.core.generic.AbstractEntity#setId(Ljava/util/UUID;)V
+getId com.example.demo.core.generic.AbstractEntity#getId()Ljava/util/UUID;

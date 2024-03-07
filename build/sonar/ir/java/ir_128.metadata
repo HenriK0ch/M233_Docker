@@ -1,0 +1,15 @@
+com.example.demo.core.security.WebSecurityConfig#filterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;
+org.springframework.security.web.util.matcher.AntPathRequestMatcher#instance-init#
+org.springframework.security.config.annotation.web.builders.HttpSecurity#sessionManagement(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+com.example.demo.core.security.JWTAuthorizationFilter#<init>(Lcom/example/demo/domain/user/UserService;Lcom/example/demo/core/security/helpers/JwtProperties;)V
+org.springframework.security.config.annotation.web.builders.HttpSecurity#addFilterAfter(Ljakarta/servlet/Filter;Ljava/lang/Class;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+com.example.demo.core.security.JWTAuthorizationFilter#instance-init#
+org.springframework.security.config.annotation.web.builders.HttpSecurity#cors(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#authorizeHttpRequests(Lorg/springframework/security/config/Customizer;)Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;
+com.example.demo.core.security.JWTAuthenticationFilter#<init>(Lorg/springframework/security/web/util/matcher/RequestMatcher;Lorg/springframework/security/authentication/AuthenticationManager;Lcom/example/demo/core/security/helpers/JwtProperties;)V
+org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;
+com.example.demo.core.security.JWTAuthenticationFilter#instance-init#
+org.springframework.security.web.util.matcher.AntPathRequestMatcher#<init>(Ljava/lang/String;Ljava/lang/String;)V
+==
+authenticationManager com.example.demo.core.security.WebSecurityConfig#authenticationManager()Lorg/springframework/security/authentication/AuthenticationManager;

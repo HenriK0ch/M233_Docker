@@ -1,0 +1,87 @@
+
+ccom.example.demo.domain.group.GroupController#allGroups(I)Lorg/springframework/http/ResponseEntity;|
+r/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/domain/group/GroupController.java3* 3(3"1*ë
+14 4()ª
+§
+4 4()4
+%0.com.example.demo.domain.group.GroupServiceImpl"__id*_
+
+__unknown_file (C*A/
+-com.example.demo.domain.group.GroupController"
+groupService´
+±
+42 4(J1
+%1+org.springframework.data.domain.PageRequest"_org.springframework.data.domain.PageRequest#of(II)Lorg/springframework/data/domain/PageRequest;*K
+
+__unknown_file (/"-
++org.springframework.data.domain.PageRequest*"
+
+__unknown_file (
+""* 
+
+__unknown_file (2
+ôñ
+4 4(K
+%2java.util.List"ucom.example.demo.core.generic.AbstractServiceImpl#findAll(Lorg/springframework/data/domain/Pageable;)Ljava/util/List;*R
+
+__unknown_file (6
+4
+%0.com.example.demo.domain.group.GroupServiceImpl*O
+
+__unknown_file (3
+1
+%1+org.springframework.data.domain.PageRequest23findAll(Lorg/springframework/data/domain/Pageable;)`
+^
+4 4(L
+groupsjava.util.List"__id*2
+
+__unknown_file (
+
+%2java.util.List¨
+¥
+5$ 5(/3
+%3-com.example.demo.domain.group.dto.GroupMapper"__id*^
+
+__unknown_file (B*@/
+-com.example.demo.domain.group.GroupController"
+groupMapperŸœ
+5$ 5(>
+%4java.util.List"Ucom.example.demo.core.generic.AbstractMapper#toDTOs(Ljava/util/List;)Ljava/util/List;*Q
+
+__unknown_file (5
+3
+%3-com.example.demo.domain.group.dto.GroupMapper*6
+
+__unknown_file (
+
+groupsjava.util.List2toDTOs(Ljava/util/List;)a
+_
+5@ 5(M)
+%5#org.springframework.http.HttpStatus"__id*"
+
+__unknown_file (
+""db
+5 5(#-
+%6'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntityË
+È
+5 5(N
+%7"lorg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V*K
+
+__unknown_file (/
+-
+%6'org.springframework.http.ResponseEntity*2
+
+__unknown_file (
+
+%4java.util.List*G
+
+__unknown_file (+
+)
+%5#org.springframework.http.HttpStatus";
+5 5(O/
+-
+%6'org.springframework.http.ResponseEntity: 
+
+__unknown_file (
+""B1/
+-com.example.demo.domain.group.GroupControllerH

@@ -1,0 +1,5 @@
+com.example.demo.core.security.validators.link.LinkValidator#isValid(Ljava/lang/String;Ljakarta/validation/ConstraintValidatorContext;)Z
+org.apache.commons.validator.routines.UrlValidator#<init>([Ljava/lang/String;)V
+org.apache.commons.validator.routines.UrlValidator#instance-init#
+==
+isValid org.apache.commons.validator.routines.UrlValidator#isValid(Ljava/lang/String;)Z

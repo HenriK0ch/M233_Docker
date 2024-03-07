@@ -1,0 +1,7 @@
+com.example.demo.domain.user.UserController#registerWithoutPassword(Lcom/example/demo/domain/user/dto/UserDTO;)Lorg/springframework/http/ResponseEntity;
+org.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatusCode;)V
+org.springframework.http.ResponseEntity#instance-init#
+==
+toDTO com.example.demo.core.generic.AbstractMapper#toDTO(Lcom/example/demo/core/generic/AbstractEntity;)Lcom/example/demo/core/generic/AbstractDTO;
+registerUser com.example.demo.domain.user.UserService#registerUser(Lcom/example/demo/domain/user/User;)Lcom/example/demo/domain/user/User;
+fromDTO com.example.demo.core.generic.AbstractMapper#fromDTO(Lcom/example/demo/core/generic/AbstractDTO;)Lcom/example/demo/core/generic/AbstractEntity;

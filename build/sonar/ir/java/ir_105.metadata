@@ -1,0 +1,12 @@
+com.example.demo.core.exception.CustomGlobalExceptionHandler#handleFileNotFound(Ljava/lang/Throwable;)Lcom/example/demo/core/exception/ResponseError;
+java.util.HashMap#<init>()V
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.util.HashMap#instance-init#
+com.example.demo.core.exception.ResponseError#instance-init#
+com.example.demo.core.exception.ResponseError#<init>()V
+==
+put java.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+setErrors com.example.demo.core.exception.ResponseError#setErrors(Ljava/util/Map;)Lcom/example/demo/core/exception/ResponseError;
+setTimeStamp com.example.demo.core.exception.ResponseError#setTimeStamp(Ljava/time/LocalDate;)Lcom/example/demo/core/exception/ResponseError;
+build com.example.demo.core.exception.ResponseError#build()Lcom/example/demo/core/exception/ResponseError;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;

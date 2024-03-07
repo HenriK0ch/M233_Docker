@@ -1,0 +1,97 @@
+
+ucom.example.demo.core.generic.AbstractServiceImpl#findAll(Lorg/springframework/data/domain/Pageable;)Ljava/util/List;Ä
+v/C:/Users/Henri Koch/Documents/GitHub/M233_Docker/src/main/java/com/example/demo/core/generic/AbstractServiceImpl.java0 0("startingBlock*ü
+22A 2(R<:
+2E 2(P
+%5java.util.ArrayList"java.util.ArrayListj
+h
+2A 2(R
+%6"java.util.ArrayList#<init>()V*7
+
+__unknown_file (
+
+%5java.util.ArrayLista
+_
+2A 2(R
+%3java.util.List"__id*7
+
+__unknown_file (
+
+%5java.util.ArrayList*
+1*ª
+32& 2(1»≈
+2& 2(>
+%4java.util.List"Borg.springframework.data.domain.Slice#getContent()Ljava/util/List;*Q
+
+__unknown_file (5
+3
+pagedResult$org.springframework.data.domain.Page2getContent()\
+Z
+2& 2(>
+%3java.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.List*
+1*æ
+startingBlock0 0(+ß
+§
+/ /(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*R
+
+__unknown_file (6
+4
+pageable(org.springframework.data.domain.Pageablet
+r
+0" 0(*4
+pageable(org.springframework.data.domain.Pageable"__annotation*"
+
+__unknown_file (
+
+%7*
+4*∆
+41 1($Æ
+´
+1 1($6
+%00com.example.demo.core.generic.AbstractRepository"__id*a
+
+__unknown_file (E*C3
+1com.example.demo.core.generic.AbstractServiceImpl"
+
+repository≥∞
+1 1(6*
+%1$org.springframework.data.domain.Page"òorg.springframework.data.repository.PagingAndSortingRepository#findAll(Lorg/springframework/data/domain/Pageable;)Lorg/springframework/data/domain/Page;*T
+
+__unknown_file (8
+6
+%00com.example.demo.core.generic.AbstractRepository*R
+
+__unknown_file (6
+4
+pageable(org.springframework.data.domain.Pageable23findAll(Lorg/springframework/data/domain/Pageable;)í
+è
+1 1(73
+pagedResult$org.springframework.data.domain.Page"__id*H
+
+__unknown_file (,
+*
+%1$org.springframework.data.domain.Page≤Ø
+2 2(#
+%2boolean"3org.springframework.data.domain.Slice#hasContent()Z*Q
+
+__unknown_file (5
+3
+pagedResult$org.springframework.data.domain.Page2hasContent()*
+2
+3*1
+12 2(S""
+2 2(S
+
+%3java.util.List:@
+0 0(*4
+pageable(org.springframework.data.domain.PageableB53
+1com.example.demo.core.generic.AbstractServiceImplH
