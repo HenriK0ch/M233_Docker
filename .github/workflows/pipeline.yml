@@ -16,9 +16,12 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      
+    - name: Navigate to backend directory
+      run: cd backend
 
     - name: Build with Gradle
-      run: ./Backend/gradlew build
+      run: ./gradlew build
 
     - name: Run tests
-      run: ./Backend/gradlew test
+      run: ./gradlew test
