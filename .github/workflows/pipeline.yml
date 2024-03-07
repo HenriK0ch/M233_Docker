@@ -34,16 +34,6 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
-    - name: Execute remote SSH commands
-      uses: appleboy/ssh-action@v1.0.0
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: 22
-        script: |
-          echo "Hello World"
-
     - name: Copy script to remote server
       uses: appleboy/scp-action@master
       with:
@@ -53,3 +43,14 @@ jobs:
         port: 22
         source: "run.sh"  # Update with your script name
         target: "./" 
+        
+    - name: Execute remote SSH commands
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: 22
+        script: |
+              bash run.sh
+                
