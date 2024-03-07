@@ -33,3 +33,23 @@ jobs:
       run: ./gradlew sonarqube
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+    - name: Execute remote SSH commands
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: 8904
+        script: |
+          echo "Hello World"
+
+    - name: Copy script to remote server
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: 8904
+        source: "run.sh"  # Update with your script name
+        target: "./" 
