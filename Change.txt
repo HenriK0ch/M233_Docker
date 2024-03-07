@@ -1,1 +1,1 @@
-uhchmod +x gradlew
+ok
