@@ -24,4 +24,4 @@ jobs:
         java-version: '17'
 
     - name: Build with Gradle and test
-      run: chmod +x gradlew && ./gradlew wrapper && ./gradlew build && ./gradlew test
+      run: chmod +x gradlew && ./gradlew wrapper --gradle-version 8.0 --distribution-type bin && ./gradlew wrapper && ./gradlew build && ./gradlew test
