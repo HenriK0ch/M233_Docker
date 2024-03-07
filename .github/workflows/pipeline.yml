@@ -40,7 +40,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: 8904
+        port: 22
         script: |
           echo "Hello World"
 
@@ -50,6 +50,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: 8904
+        port: 22
         source: "run.sh"  # Update with your script name
         target: "./" 
