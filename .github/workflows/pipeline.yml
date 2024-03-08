@@ -59,5 +59,7 @@ jobs:
         script: |
           echo "${{ secrets.DOCKER_PASSWORD }}" | docker login --username "${{ secrets.DOCKER_USERNAME }}" --password-stdin
           docker pull henritbz/uek233hk:backend_image
-          DOCKER-COMPOSE up -d
+          docker-compose up -d
+          docker-compose pull
+
                 
