@@ -57,5 +57,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-              bash run.sh
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login --username "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+          docker pull uek233hk:backend_image
+          docker run uek233hk:backend_image
                 
