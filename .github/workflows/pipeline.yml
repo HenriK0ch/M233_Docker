@@ -30,7 +30,7 @@ jobs:
       run: bash ./run.sh
 
     - name: create front end image
-      run: docker build -t backend_image ./ --progress=plain && docker tag uek_233_backend:latest henritbz/uek233hk:uek_233_backend && docker push henritbz/uek233hk:uek_233_backend
+      run: docker build -t backend_image ./ --progress=plain && docker tag backend_image:latest henritbz/uek233hk:backend_image && docker push henritbz/uek233hk:backend_image
     - name: SonarQube analysis
       run: ./gradlew sonarqube
       env:
