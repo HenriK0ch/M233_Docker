@@ -28,6 +28,9 @@ jobs:
 
     - name: run the run.sh file
       run: bash ./run.sh
+    
+    - name: Login to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
     - name: create front end image
       run: docker build -t backend_image ./ --progress=plain && docker tag backend_image:latest henritbz/uek233hk:backend_image && docker push henritbz/uek233hk:backend_image
